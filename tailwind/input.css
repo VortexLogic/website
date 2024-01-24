@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-vl {
+    @apply bg-[#F6E7DC];
+}
+
+.text-vl-start {
+    @apply text-[#F37000];
+}
+
+.text-vl-end {
+    @apply text-[#792300];
+}
+
+.text-title {
+    @apply text-[#2B1200];
+}
+
+.text-slogan {
+    @apply text-[#3F2614];
+}

@@ -1,0 +1,23 @@
+baseURL: https://vortexlogic.ca/
+title: VortexLogic
+params:
+  contact:
+    email: info@vortexlogic.ca
+
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
+languages:
+  fr:
+    contentDir: content/fr
+    disabled: false
+    languageCode: fr-CA
+    languageDirection: ltr
+    languageName: Français
+    weight: 1
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-CA
+    languageDirection: ltr
+    languageName: English
+    weight: 2
