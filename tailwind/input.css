@@ -1,23 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.bg-vl {
-    @apply bg-[#F6E7DC];
+.nav-link {
+    @apply block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
+        md:border-0 md:border-transparent md:hover:border-primary md:hover:text-primary
+        md:border-b-2 md:rounded-none md:my-4 md:py-2 md:px-0 transition-colors
 }
 
-.text-vl-start {
-    @apply text-[#F37000];
+.cta-button {
+    @apply text-white bg-primary hover:bg-orange-700 focus:ring-4 focus:ring-orange-300
+        font-bold rounded-lg px-5 py-2.5 focus:outline-none transition
 }
 
-.text-vl-end {
-    @apply text-[#792300];
+.section-header {
+    @apply text-3xl mb-6 text-center font-extrabold
 }
 
-.text-title {
-    @apply text-[#2B1200];
+.service-card {
+    @apply p-8 border border-gray-100 hover:border-gray-300
 }
 
-.text-slogan {
-    @apply text-[#3F2614];
+.service-card-icon {
+    @apply mb-6 w-10 h-10 text-primary text-4xl
+}
+
+.service-card-title {
+    @apply mb-4 text-2xl font-semibold text-slate-900
+}
+
+.service-card-description {
+    @apply text-gray-800
+}
+
+.tech-list {
+    @apply list-[square] ms-2
+}
+
+.tech-list li {
+    @apply text-gray-800 mb-2
 }

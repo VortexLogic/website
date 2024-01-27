@@ -2,7 +2,7 @@
 
 <section class="bg-white relative">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-24 z-10 relative">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-[#F6E7DC] md:text-5xl lg:text-6xl">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-orange-50 md:text-5xl lg:text-6xl">
             Some kind of slogan
         </h1>
         <p class="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 lg:px-48">
@@ -10,17 +10,122 @@
         </p>
         <div class="flex justify-center items-center">
             <a href="#services"
-               class="text-gray-800 bg-[#F6E7DC] hover:bg-orange-300 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 transition-colors">
+               class="text-gray-800 bg-orange-50 border-gray-300 hover:bg-primary hover:text-white focus:ring-4 focus:outline-none focus:ring-orange-400 font-bold rounded-lg text-sm px-5 py-2.5 me-2 mb-2 hover:shadow-md transition">
                 Explore our services
             </a>
         </div>
     </div>
-    <div class="bg-gradient-to-br from-[#F37000] to-[#792300] w-full h-full absolute top-0 left-0 z-0"></div>
+    <div class="bg-gradient-to-br from-primary to-primary-900 w-full h-full absolute top-0 left-0 z-0"></div>
 </section>
 
-<div class="max-w-screen-xl mx-auto">
+<section class="max-w-screen-xl mx-auto">
     <div class="mx-auto p-10 mt-10">
-        <h1 id="services" class="text-3xl mb-5">Our services</h1>
+        <h1 id="services" class="section-header">Our services</h1>
+        <p class="text-center text-gray-600 mb-12">Here's an overview of the services we offer</p>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="service-card">
+                <svg class="service-card-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                     fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+                <h2 class="service-card-title">Development and integration</h2>
+                <p class="service-card-description">
+                    We can help you develop your own tailor-made software solutions or APIs, as well as integrate your
+                    software with 3rd-party APIs.
+                </p>
+            </div>
+            <div class="service-card">
+                <svg class="service-card-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                     fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+                    <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+                </svg>
+                <h2 class="service-card-title">Modernization and automation</h2>
+                <p class="service-card-description">
+                    Bring your legacy software up to date with modern technologies and automate your business processes.
+                </p>
+            </div>
+            <div class="service-card">
+                <svg class="service-card-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                     fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5z"/>
+                    <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm4-3a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1"/>
+                </svg>
+                <h2 class="service-card-title">Data management and analysis</h2>
+                <p class="service-card-description">
+                    Build ETL pipelines to extract, transform and load data from various sources and perform data
+                    analysis.
+                </p>
+            </div>
+            <div class="service-card">
+                <svg class="service-card-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                     fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                    <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                </svg>
+                <h2 class="service-card-title">Technical analysis and consultation</h2>
+                <p class="service-card-description">
+                    Assess the technical aspects of your business or projects and get advice on how to improve your
+                    processes.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray-50">
+    <div class="max-w-screen-xl mx-auto p-10 mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="md:col-span-1 p-8">
+            <h2 class="text-3xl font-bold mb-8">
+                We use the latest <span class="text-primary">technologies</span>
+            </h2>
+            <div class="mb-8">
+                <p>
+                    You have an idea or a need, we use the appropriate tools to get the job done.
+                    Share your idea with us, and we'll help you make it a reality.
+                </p>
+            </div>
+            <div class="">
+                <a href="#contact"
+                   class="cta-button">
+                    Get started
+                </a>
+            </div>
+        </div>
+        <div class="md:col-span-2 p-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <ul class="tech-list">
+                    <li>Python</li>
+                    <li>Go</li>
+                    <li>JavaScript</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+                <ul class="tech-list">
+                    <li>GitHub Actions</li>
+                    <li>Azure DevOps</li>
+                    <li>Docker</li>
+                </ul>
+                <ul class="tech-list">
+                    <li>Kubernetes</li>
+                    <li>Terraform</li>
+                    <li>Google Cloud Platform (GCP)</li>
+                    <li>Azure</li>
+                </ul>
+                <ul class="tech-list">
+                    <li>PostgreSQL</li>
+                    <li>Redis</li>
+                    <li>Elasticsearch</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto">
+    <div class="mx-auto p-10 mt-10">
+        <h1 id="about" class="section-header">About us</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae suscipit orci. In bibendum tortor quis
             tempor ornare. Morbi accumsan accumsan ex sed tempor. Ut pretium magna vel purus condimentum, in imperdiet
@@ -28,37 +133,26 @@
             enim in turpis.
         </p>
     </div>
+</section>
 
-    <div class="mx-auto p-10 mt-10">
-        <h1 id="about" class="text-3xl mb-5">About us</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae suscipit orci. In bibendum tortor quis
-            tempor ornare. Morbi accumsan accumsan ex sed tempor. Ut pretium magna vel purus condimentum, in imperdiet
-            erat tempus. Fusce suscipit, mauris vitae viverra tincidunt, risus eros pellentesque arcu, a blandit nulla
-            enim in turpis.
-        </p>
-    </div>
-
-    <div class="mx-auto p-10 mt-10">
-        <h1 id="contact" class="text-3xl mb-5">Get in touch</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <form class="max-w-md">
+<section class="bg-orange-100">
+    <div class="max-w-screen-xl mx-auto p-10 mt-10">
+        <h1 id="contact" class="section-header">Get in touch</h1>
+        <div>
+            <form class="max-w-md mx-auto">
                 <label for="name" class="block mb-2 text-sm font-medium text-gray-900">
                     Your Name
                 </label>
                 <div class="relative">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                             fill="currentColor" viewBox="0 0 24 24">
-                            <path fill-rule="evenodd"
-                                  d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
-                                  clip-rule="evenodd"/>
+                        <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                         </svg>
 
                     </div>
                     <input type="text" id="name"
-                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full ps-10 p-2.5"
-                           placeholder="name@domain.com">
+                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-orange-500 block w-full ps-10 p-2.5"
+                           placeholder="Your Name">
                 </div>
 
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 mt-4">
@@ -66,15 +160,13 @@
                 </label>
                 <div class="relative">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                             fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M2 5.6V18c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V5.6l-.9.7-7.9 6a2 2 0 0 1-2.4 0l-8-6-.8-.7Z"/>
-                            <path d="M20.7 4.1A2 2 0 0 0 20 4H4a2 2 0 0 0-.6.1l.7.6 7.9 6 7.9-6 .8-.6Z"/>
+                        <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                         </svg>
 
                     </div>
                     <input type="text" id="email"
-                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full ps-10 p-2.5"
+                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-orange-500 block w-full ps-10 p-2.5"
                            placeholder="name@domain.com">
                 </div>
 
@@ -82,28 +174,17 @@
                     What is your project about?
                 </label>
                 <textarea id="message" rows="6"
-                          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-orange-500 focus:border-orange-500"
+                          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary focus:border-orange-500"
                           placeholder="I'm looking for..."></textarea>
 
-                <div class="mt-4 me-0 w-fit">
+                <div class="mt-6 me-0 w-full text-center">
                     <button type="submit"
-                            class="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">
-                        Send
+                            class="cta-button">
+                        Send message
                     </button>
                 </div>
             </form>
-            <div class="w-full">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="mt-4">
-                    Email us directly at
-                    <a href='mailto:{{ .Param "contact.email" }}' class="text-orange-700 hover:text-orange-600">
-                        {{ .Param "contact.email" }}
-                    </a>
-                </p>
-            </div>
         </div>
     </div>
-</div>
+</section>
 {{end}}
