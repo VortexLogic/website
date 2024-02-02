@@ -12,12 +12,12 @@ languages:
     disabled: false
     languageCode: fr-CA
     languageDirection: ltr
-    languageName: Français
+    languageName: FR
     weight: 1
   en:
     contentDir: content/en
     disabled: false
     languageCode: en-CA
     languageDirection: ltr
-    languageName: English
+    languageName: EN
     weight: 2

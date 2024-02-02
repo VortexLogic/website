@@ -1,0 +1,110 @@
+home_title:
+  other: "Software development consulting services"
+
+home_meta:
+    other: "VortexLogic offers software development consulting services for businesses in Montreal and elsewhere in Quebec."
+
+menu_services:
+  other: "Services"
+
+menu_about:
+  other: "About"
+
+menu_contact:
+  other: "Contact"
+
+copyright:
+  other: "All rights reserved."
+
+home_hero_slogan:
+  other: "Personalized advice, exceptional solutions"
+
+home_hero_usp:
+  other: "We are a software development company that specializes in creating custom solutions for businesses."
+
+home_hero_cta:
+  other: "Explore our services"
+
+home_section_services_title:
+  other: "Our services"
+
+home_section_services_description:
+  other: "We offer a range of software development services for businesses."
+
+home_section_tech_title:
+  other: |
+    We use the latest <span class="text-primary">technologies</span>
+
+home_section_tech_description:
+  other: |
+    You have an idea or a need, we use the appropriate tools to get the job done.
+    Share your idea with us, and we'll help you make it a reality.
+
+home_section_tech_cta:
+  other: "Get started"
+
+home_section_services_item_1:
+  other: "Development and integration"
+
+home_section_services_item_1_description:
+  other: |
+    We can help you develop your own tailor-made software solutions or APIs, as well as integrate your
+    software with 3rd-party APIs.
+
+home_section_services_item_2:
+  other: "Modernization and automation"
+
+home_section_services_item_2_description:
+  other: |
+    Bring your legacy software up to date with modern technologies and automate your business processes.
+
+home_section_services_item_3:
+    other: "Data management and analysis"
+
+home_section_services_item_3_description:
+    other: |
+      Build ETL pipelines to extract, transform and load data from various sources and
+      perform data analysis.
+
+home_section_services_item_4:
+    other: "Technical analysis and consulting"
+
+home_section_services_item_4_description:
+    other: |
+      Assess the technical aspects of your business or projects and get advice on how to 
+      improve your processes.
+
+home_section_about_title:
+  other: "About us"
+
+home_section_about_description:
+  other: |
+    We are a software development company, located in Montreal, that specializes
+    in creating custom solutions for businesses.
+
+home_section_contact_title:
+  other: "Get in touch"
+
+home_section_contact_form_name:
+  other: "Your name"
+
+home_section_contact_form_company:
+  other: "Your company"
+
+home_section_contact_form_email:
+  other: "Your email"
+
+home_section_contact_form_placeholder:
+  other: "email@domain.com"
+
+home_section_contact_form_message:
+  other: "What is your project about?"
+
+home_section_contact_form_message_placeholder:
+  other: "I'm looking for..."
+
+home_section_contact_form_submit:
+  other: "Send message"
+
+sr_open_main_menu:
+  other: "Open main menu"

@@ -1,0 +1,117 @@
+home_title:
+  other: "Services de consultation en développement de logiciels"
+
+home_meta:
+  other: "VortexLogic offre des services de consultation en développement de logiciels pour les entreprises à Montréal et ailleurs au Québec."
+
+menu_services:
+  other: "Services"
+
+menu_about:
+  other: "À propos"
+
+menu_contact:
+  other: "Contact"
+
+copyright:
+  other: "Tous droits réservés."
+
+home_hero_slogan:
+  other: "Conseils personnalisés, solutions exceptionnelles"
+
+home_hero_usp:
+  other: "Nous sommes une entreprise de développement de logiciels qui se spécialise dans la création de solutions personnalisées pour les entreprises."
+
+home_hero_cta:
+  other: "Explorez nos services"
+
+home_section_services_title:
+  other: "Nos services"
+
+home_section_services_description:
+  other: "Nous offrons une gamme de services de développement de logiciels pour les entreprises."
+
+home_section_services_item_1:
+  other: "Développement et intégration"
+
+home_section_services_item_1_description:
+  other: |
+    Nous pouvons vous aider à développer et intégrer des solutions logicielles 
+    personnalisées pour votre entreprise.
+
+home_section_services_item_2:
+    other: "Modernisation et automatisation"
+
+home_section_services_item_2_description:
+    other: |
+      Mettez à jour vos logiciels existants avec des technologies modernes et 
+      automatisez vos processus d'affaires.
+
+home_section_services_item_3:
+    other: "Gestion de données et analytique"
+
+home_section_services_item_3_description:
+    other: |
+      Construisez des pipelines ETL pour extraire, transformer et charger des données 
+      de différentes sources et effectuez des analyses de données.
+
+home_section_services_item_4:
+    other: "Analyse technique et conseil"
+
+home_section_services_item_4_description:
+    other: |
+      Évaluez les aspects techniques de votre entreprise ou de vos projets et obtenez des 
+      conseils sur la façon d'améliorer vos processus.
+
+home_section_tech_title:
+  other: |
+    Nous utilisons des <span class="text-primary">technologies</span> de pointe
+
+home_section_tech_description:
+  other: |
+    Vous avez une idée ou un besoin, nous utilisons les outils appropriés pour réaliser votre projet.
+    Partagez votre idée avec nous, et nous vous aiderons à la concrétiser.
+
+home_section_tech_cta:
+  other: "Démarrez"
+
+home_section_about_title:
+  other: "À propos de nous"
+
+home_section_about_description:
+  other: |
+    Nous sommes une entreprise de développement de logiciels, située à Montréal, qui se 
+    spécialise dans la création de solutions personnalisées pour les entreprises.
+
+home_section_contact_title:
+  other: "Contactez-nous"
+
+home_section_contact_form_name:
+  other: "Votre nom"
+
+home_section_contact_form_company:
+  other: "Votre entreprise"
+
+home_section_contact_form_email:
+    other: "Votre courriel"
+
+home_section_contact_form_placeholder:
+  other: "votre@courriel.com"
+
+home_section_contact_form_message:
+    other: "Quel est votre projet?"
+
+home_section_contact_form_message_placeholder:
+    other: "Je recherche une solution pour..."
+
+home_section_contact_form_submit:
+    other: "Envoyer"
+
+home_section_contact_form_success:
+    other: "Votre message a été envoyé avec succès. Nous vous contacterons sous peu."
+
+home_section_contact_form_error:
+    other: "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+
+sr_open_main_menu:
+  other: "Ouvrir le menu principal"

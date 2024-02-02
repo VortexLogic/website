@@ -6,6 +6,7 @@ module.exports = {
         "content/**/*.md",
         "content/**/*.html",
         "layouts/**/*.html",
+        "i18n/**/*.yaml",
         "./node_modules/flowbite/**/*.js",
     ],
     theme: {

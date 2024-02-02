@@ -42,3 +42,7 @@
 .tech-list li {
     @apply text-gray-800 mb-2
 }
+
+.footer-link {
+    @apply hover:underline me-4 md:me-6
+}
