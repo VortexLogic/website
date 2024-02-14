@@ -1,8 +1,8 @@
-baseURL: https://vortexlogic.ca/
-title: VortexLogic
+baseURL: https://codecarre.ca/
+title: Code Carré
 params:
   contact:
-    email: info@vortexlogic.ca
+    email: info@codecarre.ca
 
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
@@ -11,13 +11,11 @@ languages:
     contentDir: content/fr
     disabled: false
     languageCode: fr-CA
-    languageDirection: ltr
     languageName: FR
     weight: 1
   en:
     contentDir: content/en
     disabled: false
     languageCode: en-CA
-    languageDirection: ltr
     languageName: EN
     weight: 2
