@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /en/
+Sitemap: https://codecarre.ca/sitemap.xml
