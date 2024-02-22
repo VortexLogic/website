@@ -5,11 +5,14 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+
 jobs:
-    build:
-      name: Build and Deploy
-      runs-on: ubuntu-latest
-      steps:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
