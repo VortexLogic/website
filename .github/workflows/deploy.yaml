@@ -7,13 +7,14 @@ on:
 
 jobs:
     build:
+      name: Build and Deploy
       runs-on: ubuntu-latest
       steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Install hugo
-        run: sudo apt install hugo
+        run: sudo snap install hugo
 
       - name: Install Node
         uses: actions/setup-node@v1
