@@ -81,7 +81,9 @@
                 <ul class="tech-list">
                     <li>Python</li>
                     <li>Go</li>
-                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                    <li>Angular</li>
                     <li>Tailwind CSS</li>
                 </ul>
                 <ul class="tech-list">
@@ -94,12 +96,14 @@
                     <li>Terraform</li>
                     <li>Google Cloud Platform (GCP)</li>
                     <li>Azure</li>
+                    <li>AWS</li>
                 </ul>
                 <ul class="tech-list">
                     <li>PostgreSQL</li>
                     <li>Redis</li>
                     <li>Elasticsearch</li>
                     <li>MySQL</li>
+                    <li>MongoDB</li>
                 </ul>
             </div>
         </div>
@@ -139,7 +143,7 @@
                 <div class="relative">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                         <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
                         </svg>
                     </div>
                     <input type="text" id="company"
@@ -190,74 +194,6 @@
         </div>
     </div>
 </section>
-
-<script>
-    const form = document.getElementById('contact_form');
-    const spinner = document.getElementById('spinner');
-
-    function setSpinner(isVisible) {
-        if (isVisible) {
-            spinner.classList.remove('hidden');
-            spinner.classList.add('inline');
-        } else {
-            spinner.classList.add('hidden');
-            spinner.classList.remove('inline');
-        }
-    }
-
-    function setContactMessageStatus(isSuccess) {
-        const successText = document.getElementById('contact_success_text');
-        const errorText = document.getElementById('contact_error_text');
-
-        if (isSuccess) {
-            successText.classList.remove('hidden');
-            errorText.classList.add('hidden');
-        } else {
-            successText.classList.add('hidden');
-            errorText.classList.remove('hidden');
-        }
-    }
-
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        setSpinner(true);
-
-        const name = document.getElementById('name').value;
-        const company = document.getElementById('company').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-
-        const reqData = {
-            name: name,
-            company: company,
-            email: email,
-            message: message,
-        };
-
-        const url = form.getAttribute('action');
-        const options = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(reqData),
-        };
-        fetch(url, options)
-            .then(response => {
-                setSpinner(false);
-
-                if (response.ok) {
-                    form.reset();
-                    setContactMessageStatus(true);
-                } else {
-                    setContactMessageStatus(false);
-                }
-            })
-            .catch(_err => {
-                setSpinner(false);
-                setContactMessageStatus(false);
-            });
-    });
-</script>
+{{ $contactJs := resources.Get "js/contact.js" | resources.Minify }}
+<script src="{{ $contactJs.Permalink }}"></script>
 {{end}}

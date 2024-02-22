@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Data.general.ga_code }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.Data.general.ga_code }}');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="description" content='{{ i18n "home_meta" }}'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
