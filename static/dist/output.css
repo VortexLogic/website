@@ -912,9 +912,11 @@ input:checked + .toggle-bg{
 @font-face {
   font-family: 'Lustra';
 
-  font-weight: 500;
+  src: url('/lustramedium-webfont.woff2') format('woff2'), url('/lustramedium-webfont.woff') format('woff');
 
-  src: url(/lustramedium.otf);
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 *, ::before, ::after{
