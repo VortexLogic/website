@@ -1,34 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: 'Lustra';
+        font-weight: 500;
+        src: url(/lustramedium.otf);
+    }
+}
+
 .nav-link {
-    @apply block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
-        md:border-0 md:border-transparent md:hover:border-primary md:hover:text-primary
-        md:border-b-2 md:rounded-none md:my-4 md:py-2 md:px-0 transition-colors
+    @apply block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent
+        md:border-0 md:border-transparent md:hover:border-ccorange-400 md:hover:text-ccorange-400
+        md:border-b-2 md:my-4 md:py-2 md:px-0 transition-colors
+}
+
+.text-gradient {
+    @apply bg-gradient-to-r inline-block text-transparent bg-clip-text
+}
+
+.text-gradient-ccorange {
+    @apply text-gradient from-ccorange-800 to-ccorange-300
+}
+
+.text-gradient-ccorange-light {
+    @apply text-gradient from-ccorange-100 to-ccorange-600
 }
 
 .cta-button {
-    @apply text-white bg-primary hover:bg-orange-700 focus:ring-4 focus:ring-orange-300
-        font-bold rounded-lg px-5 py-2.5 focus:outline-none transition
+    @apply text-white bg-gradient-to-r from-ccorange-800 to-ccorange-300
+        hover:bg-white hover:from-white hover:to-white hover:text-ccorange-400
+        focus:ring-4 focus:outline-none font-bold text-sm px-5 py-3 me-6 mb-2 transition
 }
 
 .section-header {
-    @apply text-3xl mb-6 text-center font-extrabold
+    @apply text-3xl mb-4 font-display
 }
 
-.service-card {
-    @apply p-8 border border-gray-100 hover:border-gray-300
-}
-
-.service-card-icon {
-    @apply mb-6 w-10 h-10 text-primary text-4xl
-}
-
-.service-card-title {
-    @apply mb-4 text-2xl font-semibold text-slate-900
+.service-title {
+    @apply mb-4 text-2xl font-display
 }
 
 .service-card-description {
@@ -40,7 +53,7 @@
 }
 
 .tech-list li {
-    @apply text-gray-800 mb-2
+    @apply text-white mb-2
 }
 
 .footer-link {

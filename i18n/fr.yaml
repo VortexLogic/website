@@ -1,8 +1,8 @@
 home_title:
-  other: "Services de consultation en développement de logiciels"
+  other: "Services de consultation en développement de sites web et logiciels"
 
 home_meta:
-  other: "Code Carré offre des services de consultation en développement de logiciels pour les entreprises à Montréal et ailleurs au Québec."
+  other: "Code Carré offre des services de consultation en développement de sites web et logiciels pour les entreprises à Montréal et ailleurs au Québec."
 
 menu_services:
   other: "Services"
@@ -17,10 +17,12 @@ copyright:
   other: "Tous droits réservés."
 
 home_hero_slogan:
-  other: "Conseils personnalisés, solutions exceptionnelles"
+  other: "Conseils personnalisés,<br>solutions exceptionnelles"
 
 home_hero_usp:
-  other: "Nous sommes une entreprise de développement de logiciels qui se spécialise dans la création de solutions personnalisées pour les entreprises."
+  other: |
+    Nous sommes une entreprise de développement de logiciels qui se spécialise dans la création de 
+    solutions personnalisées pour les entreprises.
 
 home_hero_cta:
   other: "Explorez nos services"
@@ -31,41 +33,54 @@ home_section_services_title:
 home_section_services_description:
   other: "Nous offrons une gamme de services de développement de logiciels pour les entreprises."
 
+home_section_services_cta:
+  other: "Prêt à propulser votre entreprise? Contactez-nous pour discuter de votre projet."
+
+home_section_services_item_5:
+  other: "Développement web sur mesure"
+
+home_section_services_item_5_description:
+  other: |
+    Nous concevons et développons des sites web uniques et performants, adaptés à vos 
+    besoins spécifiques. Qu'il s'agisse d'un simple site web pour améliorer la visibilité de votre entreprise, 
+    jusqu'à une boutique en ligne, nous avons la solution. De la conception graphique à l'optimisation 
+    pour les moteurs de recherche, nous vous accompagnons à chaque étape de votre projet.
+
 home_section_services_item_1:
   other: "Développement et intégration"
 
 home_section_services_item_1_description:
   other: |
-    Nous pouvons vous aider à développer et intégrer des solutions logicielles 
-    personnalisées pour votre entreprise.
+    Nous développons des applications web sur mesure pour vous permettre d'automatiser 
+    vos tâches quotidiennes et gagner en productivité.
 
 home_section_services_item_2:
-    other: "Modernisation et automatisation"
+  other: "Modernisation et automatisation"
 
 home_section_services_item_2_description:
-    other: |
-      Mettez à jour vos logiciels existants avec des technologies modernes et 
-      automatisez vos processus d'affaires.
+  other: |
+    Mettez à jour vos logiciels existants avec des technologies modernes et 
+    automatisez vos processus d'affaires.
 
 home_section_services_item_3:
-    other: "Gestion de données et analytique"
+  other: "Gestion de données et analytique"
 
 home_section_services_item_3_description:
-    other: |
-      Construisez des pipelines ETL pour extraire, transformer et charger des données 
-      de différentes sources et effectuer des analyses de données.
+  other: |
+    Nous transformons vos données en informations exploitables pour vous aider 
+    à prendre de meilleures décisions.
 
 home_section_services_item_4:
-    other: "Analyse technique et conseil"
+  other: "Analyse technique et conseil"
 
 home_section_services_item_4_description:
-    other: |
-      Évaluez les aspects techniques de votre entreprise ou de vos projets et obtenez des 
-      conseils sur la façon d'améliorer vos processus.
+  other: |
+    Évaluez les aspects techniques de votre entreprise ou de vos projets et obtenez des 
+    conseils sur la façon d'améliorer vos processus.
 
 home_section_tech_title:
   other: |
-    Nous utilisons des <span class="text-primary">technologies</span> de pointe
+    Nous utilisons des <span class="text-ccorange-800">technologies</span> de pointe
 
 home_section_tech_description:
   other: |
@@ -80,8 +95,15 @@ home_section_about_title:
 
 home_section_about_description:
   other: |
-    Nous sommes une entreprise de développement de logiciels, située à Montréal, qui se 
-    spécialise dans la création de solutions personnalisées pour les entreprises.
+    <p class="mb-2">Code Carré est une agence de développement web basée à Montréal.
+    Nous sommes une équipe de développeurs passionnés qui se spécialisent dans la création de sites web,
+    d'applications web et de solutions logicielles sur mesure. Nous travaillons avec des technologies
+    modernes et des outils de développement de pointe pour offrir des solutions de qualité supérieure
+    à nos clients.</p>
+    <p>Nous croyons en la collaboration et en la communication transparente. Nous travaillons en étroite
+    collaboration avec nos clients pour comprendre leurs besoins et leurs objectifs commerciaux, et
+    nous nous efforçons de fournir des solutions qui répondent à leurs attentes, et leur permettent
+    de croître et de prospérer.</p>
 
 home_section_contact_title:
   other: "Contactez-nous"
@@ -93,25 +115,25 @@ home_section_contact_form_company:
   other: "Votre entreprise"
 
 home_section_contact_form_email:
-    other: "Votre courriel"
+  other: "Votre courriel"
 
 home_section_contact_form_placeholder:
   other: "votre@courriel.com"
 
 home_section_contact_form_message:
-    other: "Quel est votre projet?"
+  other: "Quel est votre projet?"
 
 home_section_contact_form_message_placeholder:
-    other: "Je recherche une solution pour..."
+  other: "Je recherche une solution pour..."
 
 home_section_contact_form_submit:
-    other: "Envoyer"
+  other: "Envoyer"
 
 home_section_contact_form_success:
-    other: "Votre message a été envoyé avec succès. Nous vous contacterons sous peu."
+  other: "Votre message a été envoyé avec succès. Nous vous contacterons sous peu."
 
 home_section_contact_form_error:
-    other: "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+  other: "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
 
 sr_open_main_menu:
   other: "Ouvrir le menu principal"

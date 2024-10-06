@@ -1,8 +1,8 @@
 home_title:
-  other: "Software development consulting services"
+  other: "Website and software development consulting services"
 
 home_meta:
-    other: "Code Carré offers software development consulting services for businesses in Montreal and elsewhere in Quebec."
+  other: "Code Carré offers website and software development consulting services for businesses in Montreal and elsewhere in Quebec."
 
 menu_services:
   other: "Services"
@@ -17,7 +17,7 @@ copyright:
   other: "All rights reserved."
 
 home_hero_slogan:
-  other: "Personalized advice, exceptional solutions"
+  other: "Personalized advice,<br>exceptional solutions"
 
 home_hero_usp:
   other: "We are a software development company that specializes in creating custom solutions for businesses."
@@ -31,9 +31,12 @@ home_section_services_title:
 home_section_services_description:
   other: "We offer a range of software development services for businesses."
 
+home_section_services_cta:
+  other: "Ready to propel your business? Contact us to discuss your project."
+
 home_section_tech_title:
   other: |
-    We use the latest <span class="text-primary">technologies</span>
+    We use the latest <span class="text-ccorange-800">technologies</span>
 
 home_section_tech_description:
   other: |
@@ -42,6 +45,15 @@ home_section_tech_description:
 
 home_section_tech_cta:
   other: "Get started"
+
+home_section_services_item_5:
+  other: "Custom web development"
+
+home_section_services_item_5_description:
+  other: |
+    We design and develop unique and high-performing websites tailored to your specific needs.
+    Whether it's a simple website to improve your company's visibility, or an online store, we have the solution.
+    From graphic design to search engine optimization, we guide you through every step of your project.
 
 home_section_services_item_1:
   other: "Development and integration"
@@ -59,28 +71,32 @@ home_section_services_item_2_description:
     Bring your legacy software up to date with modern technologies and automate your business processes.
 
 home_section_services_item_3:
-    other: "Data management and analysis"
+  other: "Data management and analysis"
 
 home_section_services_item_3_description:
-    other: |
-      Build ETL pipelines to extract, transform and load data from various sources and
-      perform data analysis.
+  other: |
+    Build ETL pipelines to extract, transform and load data from various sources and
+    perform data analysis.
 
 home_section_services_item_4:
-    other: "Technical analysis and consulting"
+  other: "Technical analysis and consulting"
 
 home_section_services_item_4_description:
-    other: |
-      Assess the technical aspects of your business or projects and get advice on how to 
-      improve your processes.
+  other: |
+    Assess the technical aspects of your business or projects and get advice on how to 
+    improve your processes.
 
 home_section_about_title:
   other: "About us"
 
 home_section_about_description:
   other: |
-    We are a software development company, located in Montreal, that specializes
-    in creating custom solutions for businesses.
+    <p class="pb-2">Code Carré is a software development consulting company based in Montreal. 
+    We're a passionate team of developers specialized in creating custom websites and web applications.
+    We work with modern technologies to deliver high-quality solutions that meet our clients' needs.</p>
+    <p>We believe in collaboration and transparent communication. We work closely with our clients to understand
+    their needs and business goals, and strive to provide solutions that meet their expectations, and help them
+    grow and thrive.</p>
 
 home_section_contact_title:
   other: "Get in touch"

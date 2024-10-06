@@ -25,6 +25,17 @@ module.exports = {
                 900: "#82380c",
                 950: "#461a04",
             },
+            ccgray: {
+                800: "#1e1e23",
+            },
+            ccorange: {
+                50: "#faf5eb",
+                100: "#ffad63",
+                300: "#ff8c50",
+                400: "#ff8253",
+                600: "#ff7d58",
+                800: "#ff6e4b",
+            },
             black: colors.black,
             white: colors.white,
             gray: colors.gray,
@@ -36,7 +47,8 @@ module.exports = {
         },
         extend: {},
         fontFamily: {
-            sans: ["Inter", "sans-serif"],
+            sans: ["Rubik", "sans-serif"],
+            display: ["Lustra", "sans-serif"],
         },
     },
     plugins: [
